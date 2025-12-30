@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="profile.jpg" alt="Md. Maruf Mullah" width="160" style="border-radius: 50%;" />
+</p>
+
 <h1 align="center">📄 Curriculum Vitae & Resume</h1>
 <h3 align="center">Md. Maruf Mullah</h3>
 
@@ -39,19 +43,11 @@ Mechanical Engineering Graduate · ML-driven Engineering Research
 ---
 
 ## 🎯 Purpose
-This repository is maintained to:
-- Share an up-to-date **academic CV**  
-- Provide an **industry-ready resume**  
-- Track revisions using version control  
+This repository serves as a centralized location for sharing my **academic CV** and **professional resume**, with version control for transparent updates.
 
 ---
 
 ## 🔄 Updates
-Documents are updated periodically to reflect:
-- Research progress  
-- Projects and publications  
-- Skills and experience  
+Documents are updated periodically to reflect new research, projects, and experience.
 
 ---
-
-⭐ *Feel free to use or reference the documents for academic or professional eval*
