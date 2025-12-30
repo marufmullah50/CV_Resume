@@ -1,0 +1,149 @@
+\documentclass[a4paper,10pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=0.75in}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=false,   % removes colored links
+	hidelinks           % makes links look like normal text
+}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{ulem}
+\usepackage{needspace} % For keeping section header with content
+
+% Custom formatting
+\titleformat{\section}{\bfseries\Large}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries\normalsize}{}{0em}{}
+
+\newcommand{\name}{\LARGE Md. Maruf Mullah}
+
+% Document
+\begin{document}
+	
+	% Header
+	\begin{center}
+		\name
+	\end{center}
+	\vspace{8mm}  % Adds extra space between name and contacts
+	
+	% Contact (single centered line with separators, forced to one line)
+	\begin{center}
+		\small
+		\parbox{\textwidth}{\centering
+			\textbf{Email:} \href{mailto:md.marufmullah50@gmail.com}{md.marufmullah50@gmail.com} |\
+			\textbf{Phone:} +8801609099183 | 
+			\textbf{LinkedIn:} \href{https://www.linkedin.com/in/marufmullah50}{marufmullah50} | 
+			\textbf{GitHub:} \href{https://github.com/marufmullah50}{marufmullah50}
+		}
+	\end{center}
+	
+	
+	% Academic Credentials
+	\section*{Academic Credentials}
+	\textbf{B.Sc. in Mechanical Engineering} \\
+	Military Institute of Science and Technology (MIST) \\
+	Apr 2021 -- May 2025 \hfill \textbf{CGPA:} 3.23/4.00 \\
+	
+	\textbf{HSC} \\
+	Abdul Kadir Mollah City College \hfill \textbf{GPA:} 5.00/5.00 \\
+	
+	% Research Interests
+	\section*{Research Interests}
+	\begin{itemize}[leftmargin=*]
+		\item \textbf{Machine Learning and Deep Learning Applications in Mechanical Engineering}
+		\item \textbf{Autonomous Systems, Robotics, and Intelligent Control}
+		\item \textbf{Data-Driven Engineering and Smart Manufacturing}
+		\item \textbf{Computational Materials Science and Property Prediction}
+		\item \textbf{Experimental Mechanics and Materials Characterization} 
+		\item \textbf{Renewable Energy Materials and Sustainable Engineering Solutions}
+	\end{itemize}
+	
+	% Experience
+	\section*{Experience}
+	\textbf{Industrial Attachment, IFAD Autos Ltd., Dhamrai} \\
+	Completed internship covering vehicle assembly, mechanical fitting, and quality control processes. \\[2pt]
+	
+	\textbf{MTO -Engineer Assessment, PRAN Group – Kaliganj Agro-Processing Ltd.} \\[2pt]
+	Completed 7-day assessment covering flour, feed, pulses, printing, and packaging operations, including process mapping, critical control point identification, and productivity improvement recommendations. \\[2pt]
+	
+	% Research & Publications
+	\section*{Research and Publications}  
+	\textbf{Undergraduate Thesis}  
+	\begin{itemize}[leftmargin=*]  
+		\item \textit{Densification of Natural Wood to Improve Structural Properties: Process and Assessment}  
+		Undergraduate thesis project exploring wood densification techniques to enhance structural behavior.  
+	\end{itemize}  
+	
+	\textbf{Conference Publications}  
+	\begin{itemize}[leftmargin=*]  
+		\item \textit{Impact Strength and Moisture Behaviour of Natural, Densified and Seasoned Wood: An Experimental Study}  
+		Anika Tahsin, \textbf{Md. Maruf Mullah}, Md. Jamil Ahmed, Md. Anisur Rahman.  
+		3rd International Conference on Mechanical Engineering and Applied Sciences (ICMEAS), 2025.  
+		\textbf{Full paper accepted.}  
+		
+		\item \textit{Meteorological Drought Prediction Using Different Forecasting Models}  
+		Zahid, Imtiaz; Najmus Sadat, Khan; \textbf{Md. Maruf Mullah}; M. Shahjahan, Mondal.  
+		10th International Conference on Water and Flood Management (ICWFM), February 2025.  
+		\textbf{Abstract accepted, full paper under review.}  
+	\end{itemize}
+	
+	% Projects
+	\section*{Projects}
+	\needspace{3\baselineskip} % Ensures header stays with content
+	\textbf{Mechanical / Engineering Projects}
+	\begin{itemize}[leftmargin=*]
+		\item \textbf{Tailstock Tool Holder:} Designed and manufactured an ergonomic tailstock die tool holder using SolidWorks and lathe machining.
+		\item \textbf{Smart Bluetooth Vacuum Car:} Built an Arduino-controlled CPU-fan cleaning car with Bluetooth remote control.
+	\end{itemize}
+	
+	\textbf{Machine Learning / Software Projects}
+	\begin{itemize}[leftmargin=*]
+		\item \textbf{BD Freshwater Fish Detection App:} Built a Vision Transformer (ViT) model with a Streamlit app for real-time classification of 12 Bangladeshi freshwater fish species. \href{https://github.com/marufmullah50/Fish-detection-app}{GitHub}
+		\item \textbf{Photo Background Editor App:} Developed a Streamlit app using U²-Net ONNX and Pillow to remove image backgrounds, add custom colors, and download edited images. \href{https://github.com/marufmullah50/Photo-background-editor-Streamlit-App}{GitHub}
+	\end{itemize}
+	
+	% Technical Skills
+	\section*{Technical Skills}
+	\textbf{Programming:} Python (NumPy, Sklearn, TensorFlow, PyTorch), C, HTML \\[3pt] 
+	\textbf{ML/DL:} Supervised/Unsupervised Learning, Neural Nets, RL, NLP \\[3pt] 
+	\textbf{Tools:} SolidWorks, ANSYS, MATLAB, Google Colab, Overleaf, Microsoft Office, Anycubic Cobra \\[3pt] 
+	\textbf{Quantum Computing:} Qiskit (basics) \\[3pt] 
+	\textbf{CAD/CAM \& 3D Printing:} CAD/CAM design, 3D printing operations \\[3pt]
+	\textbf{Document Preparation:} Proficient in Microsoft Word, Google Docs, and \LaTeX \\[3pt]
+	
+% Certifications
+\section*{Certifications}
+\begin{itemize}[leftmargin=*]
+	\item Machine Learning Specialization -- Coursera
+	\item Neural Networks and Deep Learning -- Coursera
+	\item Project Based Excel -- Grameenphone Academy
+	\item LinkedIn 101 -- Grameenphone Academy
+	\item Participation Certificate -- ICMEAS 2025
+	\item Volunteer Certificate -- MIST Job Fair 2022
+\end{itemize}
+
+% Extra-curricular Activities
+\section*{Extra-curricular Activities}
+\begin{itemize}[leftmargin=*]
+	\item Awarded scholarships in JSC and PSC examinations
+	\item Active participation in school sports, volunteer work, and scouting
+	\item Volunteer and member of MIST Career Club, contributing to career development activities and events
+	\item Member of Motomist Club, involved in arranging events and completed SolidWorks training (2021)
+	\item Completed Arduino training at MIST Innovation Club
+	\item Volunteered at ICMEAS 2022 (MIST) and MIST Job Fair 2022
+\end{itemize}
+
+	% References
+	\section*{References}
+	\begin{tabular}{@{}ll@{}}
+		\textbf{Major Md. Anisur Rahman, EME} & \textbf{Dr. Md Sayem Hossain Bhuiyan} \\
+		Assistant Professor, ME Dept., MIST & Associate Professor, ME Dept., MIST \\
+		\textbf{Email:} \href{mailto:anisur@me.mist.ac.bd}{anisur@me.mist.ac.bd} & \textbf{Email:} \href{mailto:sayem@me.mist.ac.bd}{sayem@me.mist.ac.bd} \\
+	\end{tabular}
+	
+\end{document}
