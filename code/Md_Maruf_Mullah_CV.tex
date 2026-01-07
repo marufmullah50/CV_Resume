@@ -4,12 +4,10 @@
 \usepackage{titlesec}
 \usepackage{parskip}
 \usepackage{enumitem}
-\usepackage{multicol}
 \usepackage{array}
 \usepackage{xcolor}
 \usepackage{hyperref}
 
-% ---------- Hyperlink style ----------
 \hypersetup{
 	colorlinks=true,
 	linkcolor=black,
@@ -18,14 +16,11 @@
 	pdfborder={0 0 0}
 }
 
-% ---------- Compact formatting ----------
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{1.5pt}
 \renewcommand{\arraystretch}{1}
-\setlist[itemize]{noitemsep, topsep=0.5pt, leftmargin=11pt}
-\setlength{\multicolsep}{0pt}
+\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=11pt}
 
-% ---------- Section formatting ----------
 \titleformat{\section}
 {\bfseries\normalsize}
 {}
@@ -33,12 +28,10 @@
 {}
 [\vspace{0pt}\noindent\rule{\linewidth}{0.5pt}\vspace{0pt}]
 
-\titlespacing*{\section}{0pt}{0pt}{0pt} % less before/after space
-\titlespacing*{\subsection}{0pt}{0pt}{0pt}
+\titlespacing*{\section}{0pt}{0pt}{2pt}
 
-% ---------- Header ----------
 \newcommand{\CVname}{\fontsize{15}{16}\selectfont\textbf{Md.\ Maruf Mullah}}
-\newcommand{\CVcontact}{\footnotesize % larger contact font
+\newcommand{\CVcontact}{\footnotesize
 	Email: \href{mailto:md.marufmullah50@gmail.com}{md.marufmullah50@gmail.com} \; \;
 	LinkedIn: \href{https://www.linkedin.com/in/marufmullah50/}{marufmullah50} \; \;
 	GitHub: \href{https://github.com/marufmullah50}{marufmullah50} \; \;
@@ -47,107 +40,137 @@
 
 \begin{document}
 	\pagestyle{empty}
-	
-	% ---------- Header ----------
 	\begin{center}
-		\CVname \\[10pt] % space between name and contacts
-		\CVcontact\\[5pt]
+		\CVname \\[10pt]
+		\CVcontact
 	\end{center}
-	\vspace{2pt}
 	
-	% ---------- Academic ----------
+	% 1. Academic Credentials
+	\vspace{5pt}
 	\section*{ACADEMIC CREDENTIALS}
 	\textbf{B.Sc. in Mechanical Engineering}, Military Institute of Science and Technology (MIST) \hfill Apr 2021 -- May 2025 \\
-	\textbf{CGPA:} 3.23 / 4.00 \\
+	\textbf{CGPA:} 3.23 / 4.00\\
 	
-	% ---------- Research Interests ----------
-\section*{RESEARCH INTERESTS}
-\begin{multicols}{2}
+	% 2. Research Interests
+	\section*{RESEARCH INTERESTS}
 	\begin{itemize}
-		\item Autonomous System \& Robotics
-		\item Additive Manufacturing and Smart Fabrication Technologies
-		\item Computational Mechanics and Numerical Modelling\\
-		\item Data-Driven and Machine Learning Approaches in Engineering
-		\item Advanced and Bio-Inspired Materials
+		\item Computational Mechanics and Numerical Modelling
+		\item Data-Driven and Machine Learning Applications in Engineering
+		\item Advanced Engineering Materials and Material Characterization
+		\item Sustainable and Bio-Inspired Materials\\
 	\end{itemize}
-\end{multicols}
-
 	
-	% ---------- Experience ----------
-	\section*{EXPERIENCE}
-	\textbf{Industrial Attachment, IFAD Autos Ltd.} — Assisted in vehicle assembly, mechanical fitting, and workflow optimization. \\[1pt]
-	\textbf{MTO-Engineer Assessment, PRAN Group} — Conducted 7-day process evaluation; performed mapping and suggested productivity improvements.\\
+	% 3. Bachelor Thesis
+	\section*{BACHELOR’S THESIS}
+	\textbf{Densification of Natural Wood to Improve Structural Properties} \\
+	\textbf{Advisor:} Major Md.\ Anisur Rahman, EME, Assistant Professor, ME Dept., MIST
 	
-% ---------- Research & Publications ----------
-\section*{RESEARCH \& PUBLICATIONS}
-
-\textbf{Undergraduate Thesis:} Densification of Natural Wood to Improve Structural Properties. \\[1pt]
-
-\textbf{Journal Articles:}
-\begin{itemize}
-	\item I. Alam, A. S. K. M. A. Mahee, F. A. Kakon, M. I. I. Rabby, Q. Liu, \textbf{Md. Maruf Mullah}. 
-	\textit{Effect of Groove Shapes on Microstructural and Mechanical Behavior of Pipe Welds under Post-Weld Heat Treatment.} 
-	[ Journal: \textit{Science and Technology of Welding and Joining}][Under Review]
-\end{itemize}
-
-\textbf{Conference Papers and Book Chapters:}
-\begin{itemize}
-	\item A. Tahsin, \textbf{Md. Maruf Mullah}, et al. 
-	\textit{Impact Strength and Moisture Behaviour of Natural, Densified and Seasoned Wood.} 
-	ICMEAS 2025 [Accepted] (Conference Paper).
+	\begin{itemize}
+		\item Investigated the effects of three distinct processing conditions—natural (untreated), seasoned, and chemically treated with subsequent densification—on the structural performance of natural wood.
+		\item Studied three tropical wood species: \textit{Swietenia macrophylla}, \textit{Albizia procera}, and \textit{Cordia subcordata}.
+		\item Seasoned selected specimens under controlled conditions prior to testing, while chemically treated samples were pretreated using NaOH and Na$_2$SO$_3$ followed by thermo-mechanical hot-press densification.
+		\item Conducted tensile, compression, three-point bending, impact, moisture absorption, and SEM analyses following ASTM standards.
+		\item Performed a comparative evaluation across all three conditions; chemically treated and densified specimens exhibited the highest strength, while seasoned wood showed moderate improvements over natural samples.\\
+	\end{itemize}
 	
-	\item Z. Imtiaz, N. S. Khan, \textbf{Md. Maruf Mullah}, M. S. Mondal. 
-	\textit{Meteorological Drought Prediction Using Forecasting Models.} 
-	ICWFM 2025 [Under review] (Book Chapter).
-\end{itemize}
-
-	% ---------- Projects ----------
+	
+	
+	% 4. Projects
 	\section*{PROJECTS}
-	\begin{itemize}[itemsep=2pt, topsep=2pt]
-		\item \textbf{BD Freshwater Fish Detection} — MobileNetV2 model for classifying 12 fish species, deployed with Streamlit. \href{https://github.com/marufmullah50/Fish-detection-app}{GitHub}
-		
-		\item \textbf{Surface Roughness Prediction} — Used Linear Regression, Ridge, Lasso, Decision Tree, Random Forest, Gradient Boosting, and SVM. Best model: Decision Tree (R²: 0.85). \href{https://github.com/marufmullah50/Surface_Roughness_Prediction}{GitHub}
-		
-		\item \textbf{Dhaka Wind Prediction} — ANN and CatBoost models for wind speed/direction prediction. \href{https://github.com/marufmullah50/Dhaka_Wind_Property_Prediction}{GitHub}
-		
-		\item \textbf{Tailstock Tool Holder} — SolidWorks design manufactured via lathe machining. \href{https://drive.google.com/file/d/1pXTrq3WtxePYmgT3U3wV0EFVgUJbA0YM/view?usp=drive_link}{Google Drive}\\
+	
+	\textbf{Surface Roughness Prediction in Machining} \hfill \textit{2025}
+	\begin{itemize}
+		\item Implemented Linear Regression, Random Forest, Gradient Boosting, SVM, and Decision Tree models.
+		\item Achieved best performance using Decision Tree ($R^2 = 0.85$).
+		\item Analyzed the influence of cutting parameters on surface finish.
+		\item \href{https://github.com/marufmullah50/Surface_Roughness_Prediction}{GitHub}
 	\end{itemize}
 	
+	\textbf{BD Freshwater Fish Detection} \hfill \textit{2024}
+	\begin{itemize}
+		\item Developed a MobileNetV2-based deep learning model to classify 12 Bangladeshi freshwater fish species.
+		\item Performed dataset preprocessing, augmentation, and model optimization.
+		\item Deployed the trained model using Streamlit for real-time inference.
+		\item \href{https://github.com/marufmullah50/Fish-detection-app}{GitHub}
+	\end{itemize}
 	
-	% Technical Skills
-	\section*{Technical Skills}
-	\begin{tabular}{@{}p{0.48\textwidth} p{0.48\textwidth}@{}}
-		\textbf{Programming Languages:} Python, C, HTML, MATLAB & 
-		\textbf{Machine Learning \& Data Analysis:} Microsoft Excel, TensorFlow, PyTorch, Scikit-learn, NumPy, Pandas, Matplotlib, Seaborn &
-		\textbf{Simulation Tools:} ANSYS, COMSOL Multiphysics & 
-		\textbf{CAD/3D Printing Tools:} SolidWorks, FreeCAD, Anycubic Cobra & 
-		\textbf{Document Preparation:} \LaTeX, Microsoft Word [8pt]
-	\end{tabular}
+	\textbf{Dhaka Wind Speed and Direction Prediction} \hfill \textit{2024}
+	\begin{itemize}
+		\item Built ANN and CatBoost models using historical meteorological data.
+		\item Performed feature engineering and comparative model analysis.
+		\item \href{https://github.com/marufmullah50/Dhaka_Wind_Property_Prediction}{GitHub}
+	\end{itemize}
 	
+	\textbf{Tailstock Die Tool Holder Design and Manufacturing} \hfill \textit{2022}
+	\begin{itemize}
+		\item Designed a functional tailstock tool holder using SolidWorks.
+		\item Manufactured the component through lathe machining and validated dimensional accuracy.
+		\item \href{https://drive.google.com/file/d/1pXTrq3WtxePYmgT3U3wV0EFVgUJbA0YM/view?usp=drive_link}{Google Drive}\\
+	\end{itemize}
+	
+	% 5. Publications
+	\section*{PUBLICATIONS}
+	
+	\textbf{Journal Article}
+	\begin{itemize}
+		\item I. Alam et al., \textbf{Md. Maruf Mullah}.  
+		\textit{Effect of Groove Shapes on Microstructural and Mechanical Behavior of Pipe Welds under Post-Weld Heat Treatment.}  
+		\textit{Science and Technology of Welding and Joining} (Under Review).
+	\end{itemize}
+	
+	\textbf{Conference Papers and Book Chapters}
+	\begin{itemize}
+		\item A. Tahsin, \textbf{Md. Maruf Mullah}, et al.  
+		\textit{Impact Strength and Moisture Behaviour of Natural, Densified and Seasoned Wood.}  
+		ICMEAS 2025 (Accepted).\\
+		
+		\item Z. Imtiaz et al., \textbf{Md. Maruf Mullah}.  
+		\textit{Meteorological Drought Prediction Using Forecasting Models.}  
+		ICWFM 2025 (Book Chapter – Accepted).\\ 
+	\end{itemize}
+	
+	% ---------- Technical Skills ----------
+	\section*{TECHNICAL SKILLS}
+	
+	\textbf{Programming Languages:}  
+	Python, C, C++, MATLAB, HTML \\[2pt]
+	\textbf{Machine Learning \& Deep Learning:}  
+	PyTorch, TensorFlow, Scikit-learn, NumPy \\[2pt]
+	\textbf{Data Analysis \& Visualization:} Microsoft Excel, Google Sheets, Pandas, Matplotlib, Seaborn\\[2pt]
+	\textbf{Simulation Tools:}  
+	ANSYS, COMSOL Multiphysics \\[2pt]
+	\textbf{CAD / 3D Printing Tools:}  
+	SolidWorks, FreeCAD, Anycubic Cobra \\[2pt]
+	\textbf{Document Preparation:}    
+	\LaTeX, Microsoft Word, Google Docs \\
+	
+	% 7. Professional Experience
+	\section*{PROFESSIONAL EXPERIENCE}
+	\textbf{Industrial Attachment, IFAD Autos Ltd.} — Vehicle assembly, mechanical fitting, and workflow optimization. \\[4pt]
+	\textbf{MTO-Engineer Assessment, PRAN Group} — Process evaluation, workflow mapping, and productivity analysis.\\
 	
 	% ---------- Certifications ----------
 	\section*{CERTIFICATIONS}
-	\begin{multicols}{2}
-		\begin{itemize}
-			\item Machine Learning Specialization (Coursera)
-			\item Neural Networks and Deep Learning (Coursera)
-			\item Mathematics for Data Science (Simplilearn)
-			\item Python Programming Bootcamp (Decoders Academy)\\
-			\item MATLAB Onramp (Mathworks)
-			\item Git Training (Simplilearn)
-			\item Google Sheets (Simplilearn)
-			\item Project-Based Excel (Grameenphone Academy)
-			
-		\end{itemize}
-	\end{multicols}
 	
-	% ---------- References ----------
-	% ---------- References ----------
+	\begin{itemize}
+		\item Machine Learning Specialization — Coursera
+		\item Neural Networks and Deep Learning — Coursera
+		\item Mathematics for Data Science — Simplilearn
+		\item Python Programming Bootcamp — Decoders Academy
+		\item MATLAB Onramp — MathWorks
+		\item Git Training — Simplilearn
+		\item Google Sheets — Simplilearn
+		\item Project-Based Excel — Grameenphone Academy\\
+	\end{itemize}
+	
+	
+	% 9. References
 	\section*{REFERENCES}
 	\begin{tabular}{@{}p{0.48\textwidth} p{0.48\textwidth}@{}}
-		\textbf{Major Md. Anisur Rahman, EME} & \textbf{Dr.\ Md Sayem Hossain Bhuiyan} \\
+		\textbf{Major Md.\ Anisur Rahman, EME} & \textbf{Dr.\ Md.\ Sayem Hossain Bhuiyan} \\
 		Assistant Professor, ME Dept., MIST & Associate Professor, ME Dept., MIST \\
-		Email: \href{mailto:anisur@me.mist.ac.bd}{anisur@me.mist.ac.bd} & Email: \href{mailto:sayem@me.mist.ac.bd}{sayem@me.mist.ac.bd} \\
+		Email: \href{mailto:anisur@me.mist.ac.bd}{anisur@me.mist.ac.bd} &
+		Email: \href{mailto:sayem@me.mist.ac.bd}{sayem@me.mist.ac.bd}
 	\end{tabular}
-
+	
 \end{document}
