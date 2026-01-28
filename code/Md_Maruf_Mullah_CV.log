@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.1.12)  12 JAN 2026 18:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.1.12)  28 JAN 2026 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -454,43 +454,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
-
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 74.
+(Font)              <7> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 74.
+(Font)              <5> on input line 76.
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--133
+Underfull \hbox (badness 10000) in paragraph at lines 142--153
 
  []
 
 [1
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 138--149
-
- []
-
-[2] (Md_Maruf_Mullah_CV.aux)
+] [2] (Md_Maruf_Mullah_CV.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -501,10 +481,10 @@ Package rerunfilecheck Info: File `Md_Maruf_Mullah_CV.out' has not changed.
 Here is how much of TeX's memory you used:
  11900 strings out of 409616
  232373 string characters out of 5778255
- 1944191 words of memory out of 5000000
+ 1945191 words of memory out of 5000000
  33897 multiletter control sequences out of 15000+600000
  558589 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,8n,93p,1209b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,93p,1209b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Md_Maruf_Mullah_CV.pdf (2 pages).
