@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.1.12)  30 JAN 2026 01:18
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2026.1.12)  12 FEB 2026 01:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -466,7 +466,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 153--164
+Overfull \hbox (2.50055pt too wide) in paragraph at lines 163--171
+\TU/TimesNewRoman(0)/b/n/10 Deep Learning & Computer Vision: \TU/TimesNewRoman(
+0)/m/n/10 PyTorch, TensorFlow, YOLO (Detection, Segmentation, Classification, T
+racking), Roboflow 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--171
 
  []
 
@@ -481,10 +488,10 @@ Package rerunfilecheck Info: File `Md_Maruf_Mullah_CV.out' has not changed.
 Here is how much of TeX's memory you used:
  11900 strings out of 409616
  232373 string characters out of 5778255
- 1945191 words of memory out of 5000000
+ 1943191 words of memory out of 5000000
  33897 multiletter control sequences out of 15000+600000
  558589 words of font info for 57 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,8n,93p,1209b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,93p,1209b,429s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Md_Maruf_Mullah_CV.pdf (2 pages).
